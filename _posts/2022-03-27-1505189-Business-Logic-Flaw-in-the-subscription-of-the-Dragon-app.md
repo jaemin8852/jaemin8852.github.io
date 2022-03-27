@@ -19,12 +19,10 @@ category: Hacking
 ### 재현
 1. <https://getdragon.ch/checkout> 에 방문한다.
 2. Burp Suite Proxy Intercept를 켜주고 payment를 누른다.  
-3. POST 요청에서 구매 정보 중 **price와 quantity를 음수**로 바꾼다.
-    
+3. POST 요청에서 구매 정보 중 **price와 quantity를 음수**로 바꾼다.  
 ![proxy intercept](/assets/img/2022-03-27-1505189-Business-Logic-Flaw-in-the-subscription-of-the-Dragon-app/proxy-intercept.png){: .center}  
   
 4. Forward 해주면 결제 성공 페이지가 뜨고 앱을 다운로드 받을 수 있다.  
-  
 ![payment successful](/assets/img/2022-03-27-1505189-Business-Logic-Flaw-in-the-subscription-of-the-Dragon-app/payment-successful.png){: .center}   
   
   
