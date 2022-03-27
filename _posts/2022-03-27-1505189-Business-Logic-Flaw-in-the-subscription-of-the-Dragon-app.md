@@ -28,7 +28,10 @@ category: Hacking
 확인할 수 있는 문제이지만 심각도는 낮다.  
 앱을 다운로드 받는다고 사용할 수 있는 것도 아니고, 다운로드 경로는 누구에게나 열려있다.  
 **구독 코드**가 중요한데, 이는 백엔드에서 지불이 수신되지 않았기에 제공되지 않는다.  
-![screenshot](/assets/img/2022-03-27-1505189-Business-Logic-Flaw-in-the-subscription-of-the-Dragon-app/shot.png){: .center}  
+![normal](/assets/img/2022-03-27-1505189-Business-Logic-Flaw-in-the-subscription-of-the-Dragon-app/shot.png){: .center}  
+(정상)  
+![no code](/assets/img/2022-03-27-1505189-Business-Logic-Flaw-in-the-subscription-of-the-Dragon-app/no.png){: .center}  
+(구독 코드 제공 안됨)
   
 그래서 이 문제 때문에 경제적으로 타격을 입지는 않는다.  
 하지만 이는 여전히 문제이긴 하기 때문에 bounty를 지급하겠다.  
