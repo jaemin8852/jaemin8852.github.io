@@ -1,7 +1,7 @@
 ---
 title:  "Business Logic Flaw in the subscription of the Dragon app - $250 리뷰"
 layout: single
-date: 2022-03-27
+date: 2022-03-27T12:00:00+09:00
 last_modified_at: 2022-03-27
 category: Hacking
 ---

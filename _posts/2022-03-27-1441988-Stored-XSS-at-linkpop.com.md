@@ -1,7 +1,7 @@
 ---
 title:  "Stored XSS at https://linkpop.com - $1,600 리뷰"
 layout: single
-date: 2022-03-27
+date: 2022-03-27T14:00:00+09:00
 last_modified_at: 2022-03-27
 category: Hacking
 ---
@@ -18,15 +18,12 @@ category: Hacking
 클라이언트측에서만 필터링을 거쳤기 때문에 쉽게 우회가 가능했고, 이는 Stored XSS 취약점으로 연결되었다.  
 
 ### 재현
-1. <https://linkpop.com/> 에 방문한다.  
+1. <https://linkpop.com> 에 방문한다.  
 2. 로그인 후 새로운 템플릿을 만든다.  
 ![screen shot](/assets/img/2022-03-27-1441988-Stored-XSS-at-linkpop.com/1.png){: .center}  
-  
 이처럼 link를 만들어주는 서비스다.  
 ![client](/assets/img/2022-03-27-1441988-Stored-XSS-at-linkpop.com/2.png){: .center}  
-  
 스크립트를 그대로 URL에 넣으면 클라이언트측에서 막는다.  
-  
 3. Burp Suite Proxy Intercept를 켜주고 Publish를 눌렀을 때 요청을 캡쳐한다.  
 여기서 URL을 수정하고 Forward한다.  
 ![capture](/assets/img/2022-03-27-1441988-Stored-XSS-at-linkpop.com/3.png){: .center}  
