@@ -1,5 +1,5 @@
 ---
-title:  "2022-03-27-1505189-Business Logic Flaw in the subscription of the Dragon app - $250 리뷰"
+title:  "Business Logic Flaw in the subscription of the Dragon app - $250 리뷰"
 layout: single
 date: 2022-03-27
 last_modified_at: 2022-03-27
