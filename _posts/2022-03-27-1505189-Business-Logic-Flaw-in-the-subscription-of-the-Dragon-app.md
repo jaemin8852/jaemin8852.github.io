@@ -19,17 +19,23 @@ category: Hacking
 ### 재현
 1. <https://getdragon.ch/checkout> 에 방문한다.
 2. Burp Suite Proxy Intercept를 켜주고 payment를 누른다.  
-3. POST 요청에서 구매 정보 중 **price와 quantity를 음수**로 바꾼다.  
+3. POST 요청에서 구매 정보 중 **price와 quantity를 음수**로 바꾼다.
+    
 ![proxy intercept](/assets/img/2022-03-27-1505189-Business-Logic-Flaw-in-the-subscription-of-the-Dragon-app/proxy-intercept.png){: .center}  
+  
 4. Foward 해주면 결제 성공 페이지가 뜨고 앱을 다운로드 받을 수 있다.  
+  
 ![payment successful](/assets/img/2022-03-27-1505189-Business-Logic-Flaw-in-the-subscription-of-the-Dragon-app/payment-successful.png){: .center}   
+  
   
 ### 관리자 답변
 확인할 수 있는 문제이지만 심각도는 낮다.  
 앱을 다운로드 받는다고 사용할 수 있는 것도 아니고, 다운로드 경로는 누구에게나 열려있다.  
 **구독 코드**가 중요한데, 이는 백엔드에서 지불이 수신되지 않았기에 제공되지 않는다.  
+  
 ![normal](/assets/img/2022-03-27-1505189-Business-Logic-Flaw-in-the-subscription-of-the-Dragon-app/shot.png){: .center}  
 (정상)  
+  
 ![no code](/assets/img/2022-03-27-1505189-Business-Logic-Flaw-in-the-subscription-of-the-Dragon-app/no.png){: .center}  
 (구독 코드 제공 안됨)
   
