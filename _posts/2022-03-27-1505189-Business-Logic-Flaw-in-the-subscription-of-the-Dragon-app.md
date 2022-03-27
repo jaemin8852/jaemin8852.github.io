@@ -14,7 +14,7 @@ category: Hacking
 ```Business logic vulnerabilities are flaws in the design and implementation of an application that allow an attacker to elicit unintended behavior. This potentially enables attackers to manipulate legitimate functionality to achieve a malicious goal.```  
   
 설계 및 구현에서의 논리 결함은 공격자가 악의적인 행동을 할 수 있게 가능성을 만든다.  
-물론 이 사례에서는 백엔드 필터링으로 인해 app의 구독 코드를 성공적으로 얻지는 못하지만, 공격자가 원하는 방향대로 반영되었기 때문에 처리를 해주는 게 좋겠다.
+물론 이 사례에서는 백엔드 필터링으로 인해 app의 구독 코드를 성공적으로 얻지는 못했지만, 공격자가 원하는 방향대로 반영되었기 때문에 처리를 해주는 게 좋겠다.
 
 ### 재현
 1. <https://getdragon.ch/checkout> 에 방문한다.
