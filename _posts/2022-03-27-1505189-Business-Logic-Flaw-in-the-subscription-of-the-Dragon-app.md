@@ -23,7 +23,7 @@ category: Hacking
     
 ![proxy intercept](/assets/img/2022-03-27-1505189-Business-Logic-Flaw-in-the-subscription-of-the-Dragon-app/proxy-intercept.png){: .center}  
   
-4. Foward 해주면 결제 성공 페이지가 뜨고 앱을 다운로드 받을 수 있다.  
+4. Forward 해주면 결제 성공 페이지가 뜨고 앱을 다운로드 받을 수 있다.  
   
 ![payment successful](/assets/img/2022-03-27-1505189-Business-Logic-Flaw-in-the-subscription-of-the-Dragon-app/payment-successful.png){: .center}   
   
