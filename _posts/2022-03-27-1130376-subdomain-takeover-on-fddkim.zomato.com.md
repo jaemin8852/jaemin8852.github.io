@@ -25,10 +25,11 @@ takeover에 성공한다면 서브 도메인에서 그대로 내 페이지가 �
 보통 subdomain을 찾을 때, 대량의 subdomain을 검색해서 응답이 이상한 것들을 찾아내야 하기 때문에 프로그램을 직접 만들거나 github에 있는 코드를 이용한다.  
 또한 해커는 subdomain이 takeover까지 이어질 수 있는지 빠르게 판단하기 위해서 <https://github.com/EdOverflow/can-i-take-over-xyz> 이런 곳에서 미리 찾아본다. writeup 작성한 해커도 평소에는 그랬는데 이번 프로젝트를 진행할 땐 왠지 모르게 들어가지 않았었다고 한다.  
   
-찾은 subdomain은 freshdesk에서 호스팅되는 페이지를 가리켰고, 이는 다음과 같이 이상한 응답을 표시했다.  
+해커가 찾은 subdomain은 freshdesk에서 호스팅되는 페이지를 가리켰고, 이는 다음과 같이 이상한 응답을 표시했다.  
 ![response](/assets/img/2022-03-27-1130376-subdomain-takeover-on-fddkim.zomato.com/1.png){: .center}  
   
-이 사이트는 위에 적어둔 링크인 <https://github.com/EdOverflow/can-i-take-over-xyz>에서 취약하지 않다고 나와있었지만, 해커는 이를 보지 않고 무작정 가입 후 takeover를 시도했다.  
+이 사이트(freshdesk)는 위에 적어둔 링크인 <https://github.com/EdOverflow/can-i-take-over-xyz>에서 취약하지 않다고 나와있었지만, 해커는 이를 보지 않고 무작정 가입 후 takeover를 시도했다.  
+  
 ![response](/assets/img/2022-03-27-1130376-subdomain-takeover-on-fddkim.zomato.com/2.png){: .center}  
   
 이처럼 실제 도메인 소유자인지 확인하기 때문에 취약하지 않다고 되어있었을 것이다.  
