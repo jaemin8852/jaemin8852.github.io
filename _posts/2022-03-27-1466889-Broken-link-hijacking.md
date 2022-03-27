@@ -1,8 +1,8 @@
 ---
-layout: posts
 title:  "Broken link hijacking in kubernetes - $100 리뷰"
-toc: true
-toc_sticky: true
+layout: single
+date: 2020-05-25
+last_modified_at: 2020-05-25
 category: Hacking
 ---
 
