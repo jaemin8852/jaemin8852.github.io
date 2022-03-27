@@ -17,7 +17,7 @@ Subdomain Takeover는 간단히 말해서 fddkim.zomato.com 같은 zomato.com의
 **사라진 페이지의 주소**와 같은 주소로 내 페이지를 배포할 수 있을 때, 저 하위 도메인은 내 페이지를 가리키게 되고 이를 STO(Subdomain Takeover)라고 한다.   
 가리키는 게 비어있는 subdomain을 찾는 건 어렵지 않지만 실제로 저걸 takeover하기는 쉽지 않다.  
 
-takeover에 성공한다면 서브 도메인에서 그대로 내 페이지가 열리기 때문에 (외부 도메인으로 연결되는 링크를 하이재킹)<https://jaemin8852.github.io/hacking/1466889-Broken-link-hijacking/>하는 것과는 다르다고 볼 수 있다. (더 위험함)  
+takeover에 성공한다면 서브 도메인에서 그대로 내 페이지가 열리기 때문에 [외부 도메인으로 연결되는 링크를 하이재킹](https://jaemin8852.github.io/hacking/1466889-Broken-link-hijacking/)하는 것과는 다르다고 볼 수 있다. (더 위험함)  
   
 아래에서는 해커가 작성한 writeup을 요약 및 리뷰하도록 하겠다.
   
