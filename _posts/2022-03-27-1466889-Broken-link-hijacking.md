@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "Broken link hijacking in kubernetes - $100 리뷰"
 category: Hacking
 ---
@@ -17,7 +17,7 @@ category: Hacking
 ![find chubao](/assets/img/2022-03-27-1466889-Broken-link-hijacking/1.jpg){: width="40%"}{: .center}  
 ![link](/assets/img/2022-03-27-1466889-Broken-link-hijacking/2.png){: width="40%"}{: .center}  
  연결된 링크는 위와 같음
-3.  들어가면 404 page가 뜬다. 
+3.  들어가면 404 page가 뜬다.  
 ![404 page](/assets/img/2022-03-27-1466889-Broken-link-hijacking/3.jpg){: width="40%"}{: .center}  
 두 번째 사진에 있는 링크를 보고 github의 username과 repository를 알아낼 수 있고, username을 chubaofs로 바꿀 수 있다면 위의 링크를 가로챌 수 있다.
 4. username을 chubaofs로 변경하고, chubaofs-csi라는 repository를 만든다.  
