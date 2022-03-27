@@ -1,9 +1,7 @@
 ---
-
 layout: post
 title:  "Broken link hijacking in kubernetes - $100 리뷰"
 category: Hacking
-
 ---
 
 <https://hackerone.com/reports/1466889>
