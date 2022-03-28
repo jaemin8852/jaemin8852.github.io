@@ -24,7 +24,7 @@ category: Hacking
 ```html
 "/>&lt;script>alert(1)&lt;/script>"/>
 ```  
-(&lt;은 <의 다른 표현이다.)  
+(\&lt;은 <의 다른 표현이다.)  
 ```HTML entities for the alternation of <```  
 3. https://*username*.imgur.com으로 로그인 하면 Script가 실행된다.  
 ![script](/assets/img/2022-03-28-381553-HTML-Injection-with-Stored-XSS-possible-on-imgur-profile2/1.png){: .center}  
