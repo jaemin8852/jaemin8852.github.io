@@ -2,7 +2,7 @@
 title:  "XSS Reflected at sketch.pixiv.net Via 'next_url' - $500 리뷰"
 layout: single
 date: 2022-03-28T18:00:00+09:00
-last_modified_at: 2022-03-27
+last_modified_at: 2022-03-28
 category: Hacking
 ---
 
