@@ -9,7 +9,7 @@ category: Hacking
 <https://hackerone.com/reports/484434>
 원본 링크  
   
-[이전 게시물(HTML Injection with Stored XSS possible on imgur profile (1) - $750 리뷰) 보러가기](https://jaemin8852.github.io/381553-HTML-Injection-with-Stored-XSS-possible-on-imgur-profile1)  
+[이전 게시물(HTML Injection with Stored XSS possible on imgur profile (1) - $750 리뷰) 보러가기](https://jaemin8852.github.io/hacking/381553-HTML-Injection-with-Stored-XSS-possible-on-imgur-profile1)  
   
 # HTML Injection with Stored XSS
 
