@@ -13,7 +13,7 @@ category: Hacking
 Reflected XSS(Reflected Cross Site Scripting)는 파라미터 등을 매개로 서버에 스크립트를 전달(request)하여 스크립트가 페이지 내에서 실행되도록 하는 행위이다.  
   
 ### 요약
-<https://sketch.pixiv.net>의 URL에서 Reflected XSS를 발생시킬 수 있었다.  
+https://sketch.pixiv.net의 URL에서 Reflected XSS를 발생시킬 수 있었다.  
   
 ```https://sketch.pixiv.net/resign_request/success?next_url=javascript%3Aalert%2F**%2F(document.domain)```  
 next_url이라는 파라미터에 스크립트를 작성해서 넘겼고, 실제로 동작하는 것을 볼 수 있다.  
