@@ -14,7 +14,7 @@ category: Hacking
 웹사이트가 외부 서비스에 대한 pages, sources, links를 제공했는데 사용할 수 없게 된 경우, 공격자가 이를 탈취해서 웹사이트를 가장하여 악성행위를 할 수 있다.
 
 ### 재현
-1. <https://kubernetes-csi.github.io/docs/drivers.html?highlight=chubaofs#production-drivers> 에 방문한다.
+1. https://kubernetes-csi.github.io/docs/drivers.html?highlight=chubaofs#production-drivers에 방문한다.
 2. ChubaoFS를 검색하고 아래 링크를 클릭한다.  
 ![find chubao](/assets/img/2022-03-27-1466889-Broken-link-hijacking/1.jpg){: .center}  
 ![link](/assets/img/2022-03-27-1466889-Broken-link-hijacking/2.png){: .center}  
