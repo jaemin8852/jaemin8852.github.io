@@ -1,5 +1,5 @@
 ---
-title:  "IDOR: leak buyer info & Publish/Hide foreign comments at Judge.me - $1,250 리뷰"
+title:  "IDOR: leak buyer info and Publish/Hide foreign comments at Judge.me - $1,250 리뷰"
 layout: single
 date: 2022-04-01T17:02:00+09:00
 last_modified_at: 2022-04-01
