@@ -8,7 +8,7 @@ category: Hacking
 
 <https://hackerone.com/reports/1130376>  
 원본 링크  
-<https://medium.com/@moSec/how-i-hacked-thousand-of-subdomains-6aa43b92282c>  
+https://medium.com/@moSec/how-i-hacked-thousand-of-subdomains-6aa43b92282c  
 해커가 작성한 writeup 원문
 
 # Subdomain Takeover 
@@ -28,7 +28,7 @@ takeover에 성공한다면 서브 도메인에서 그대로 내 페이지가 �
 해커가 찾은 subdomain은 freshdesk에서 호스팅되는 페이지를 가리켰고, 이는 다음과 같이 이상한 응답을 표시했다.  
 ![response](/assets/img/2022-03-27-1130376-subdomain-takeover-on-fddkim.zomato.com/1.png){: .center}  
   
-이 사이트(freshdesk)는 위에 적어둔 링크인 <https://github.com/EdOverflow/can-i-take-over-xyz>에서 취약하지 않다고 나와있었지만, 해커는 이를 보지 않고 무작정 가입 후 takeover를 시도했다.  
+이 사이트(freshdesk)는 위에 적어둔 링크인 https://github.com/EdOverflow/can-i-take-over-xyz에서 취약하지 않다고 나와있었지만, 해커는 이를 보지 않고 무작정 가입 후 takeover를 시도했다.  
   
 ![response](/assets/img/2022-03-27-1130376-subdomain-takeover-on-fddkim.zomato.com/2.png){: .center}  
   

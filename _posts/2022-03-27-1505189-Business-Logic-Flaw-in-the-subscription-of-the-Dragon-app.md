@@ -17,7 +17,7 @@ category: Hacking
 물론 이 사례에서는 백엔드 필터링으로 인해 app의 구독 코드를 성공적으로 얻지는 못했지만, 공격자가 원하는 방향대로 반영되었기 때문에 처리를 해주는 게 좋겠다.
 
 ### 재현
-1. <https://getdragon.ch/checkout> 에 방문한다.
+1. https://getdragon.ch/checkout에 방문한다.
 2. Burp Suite Proxy Intercept를 켜주고 payment를 누른다.  
 3. POST 요청에서 구매 정보 중 **price와 quantity를 음수**로 바꾼다.  
 ![proxy intercept](/assets/img/2022-03-27-1505189-Business-Logic-Flaw-in-the-subscription-of-the-Dragon-app/proxy-intercept.png){: .center}  
