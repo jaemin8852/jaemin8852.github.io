@@ -22,22 +22,22 @@ IDOR(Insecure Direct Object Reference)은 서버로 요청하는 메시지의 UR
 ### 재현
 1. Shopify의 본인 store에 'Checkout Comments"를 설치한다.  
 2. Free 상품을 만들고 주문을 넣은 다음 comment를 입력한다.  
-![input order information](/assets/img/2022-04-01-1410498-IDOR-leak-buyer-info-and-Publish-and-Hide-comments/1.png){: .center}  
+![input order information](/assets/img/2022-04-01-1410498-IDOR-leak-buyer-info&Publish-and-Hide-comments/1.png){: .center}  
 주문 정보 입력  
-![comment](/assets/img/2022-04-01-1410498-IDOR-leak-buyer-info-and-Publish-and-Hide-comments/2.png){: .center}  
+![comment](/assets/img/2022-04-01-1410498-IDOR-leak-buyer-info&Publish-and-Hide-comments/2.png){: .center}  
 Comment 입력하고 send  
 3. Shopify에서 /admin/apps/checkout-comments/extensions/checkout_comments/comments로 이동하고, Publish를 누를 때 Burp Suite를 사용하여 Intercept 하고 요청을 repeater로 보낸다.  
-![publish](/assets/img/2022-04-01-1410498-IDOR-leak-buyer-info-and-Publish-and-Hide-comments/3.png){: .center}  
+![publish](/assets/img/2022-04-01-1410498-IDOR-leak-buyer-info&Publish-and-Hide-comments/3.png){: .center}  
 Intercept on 하고 publish  
-![go to repeater](/assets/img/2022-04-01-1410498-IDOR-leak-buyer-info-and-Publish-and-Hide-comments/4.png){: .center}  
+![go to repeater](/assets/img/2022-04-01-1410498-IDOR-leak-buyer-info&Publish-and-Hide-comments/4.png){: .center}  
 Intercept에 걸린 post를 repeater로 보냄  
 4. repeater에서 comment_id를 바꿔서 요청을 보내면 응답에서 사용자의 정보가 노출된다.  
-![leak](/assets/img/2022-04-01-1410498-IDOR-leak-buyer-info-and-Publish-and-Hide-comments/5.png){: .center}  
+![leak](/assets/img/2022-04-01-1410498-IDOR-leak-buyer-info&Publish-and-Hide-comments/5.png){: .center}  
 원래 요청(첫 이미지에서 구매 정보에 입력했던 정보)
-![leak](/assets/img/2022-04-01-1410498-IDOR-leak-buyer-info-and-Publish-and-Hide-comments/6.png){: .center}  
+![leak](/assets/img/2022-04-01-1410498-IDOR-leak-buyer-info&Publish-and-Hide-comments/6.png){: .center}  
 comment_id 변경 후 요청(다른 누군가의 댓글 및 구매 정보)  
 5. 뿐만 아니라 curated 매개변수를 spam으로 바꾸면 댓글을 숨길 수도 있다.  
-![hide](/assets/img/2022-04-01-1410498-IDOR-leak-buyer-info-and-Publish-and-Hide-comments/7.png){: .center}  
+![hide](/assets/img/2022-04-01-1410498-IDOR-leak-buyer-info&Publish-and-Hide-comments/7.png){: .center}  
   
    
 ### 생각해볼 점
