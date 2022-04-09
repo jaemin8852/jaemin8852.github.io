@@ -6,8 +6,6 @@ last_modified_at: 2022-03-27
 category: Hacking
 ---
 
-<https://hackerone.com/reports/1466889>
-원본 링크
 
 # Broken link hijacking
 ### 요약
@@ -30,4 +28,8 @@ category: Hacking
 ### 생각해볼 점
 이에 Bounty로 $100이 지급되었다.  
 사이트 내에 링크가 걸려져 있을 경우, 특히나 github와 같이 사용자가 링크의 구조를 변경할 수 있는 서비스에 링크했을 경우에는 이에 대한 관리가 필요하다.  
-사이트 사용자는 사이트를 믿고 쉽게 설치할 수 있기 때문에 위험할 수 있다.
+사이트 사용자는 사이트를 믿고 쉽게 설치할 수 있기 때문에 위험할 수 있다.  
+  
+참고
+<https://hackerone.com/reports/1466889>
+원본 링크

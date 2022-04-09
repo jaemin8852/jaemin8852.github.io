@@ -6,8 +6,6 @@ last_modified_at: 2022-03-27
 category: Hacking
 ---
 
-<https://hackerone.com/reports/1505189>  
-원본 링크
 
 # Business Logic Flaw 논리 결함
 ### 요약
@@ -49,3 +47,7 @@ category: Hacking
 ### 생각해볼 점
 이에 Bounty로 $250이 지급되었다.  
 전 페이지에서 넘어온 값을 그대로 사용하지 않고 **필터링**을 거치면 예상하지 못한 값이 들어왔을 때도 잘 처리될 수 있다.  
+  
+참고
+<https://hackerone.com/reports/1505189>  
+원본 링크

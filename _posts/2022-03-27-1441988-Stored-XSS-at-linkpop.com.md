@@ -6,8 +6,6 @@ last_modified_at: 2022-03-27
 category: Hacking
 ---
 
-<https://hackerone.com/reports/1441988>  
-원본 링크
 
 # Stored XSS at https://linkpop.com  
   
@@ -39,4 +37,8 @@ category: Hacking
   
 ### 생각해볼 점
 이에 Bounty로 $1,600이 지급되었다.  
-기억하기론 당시 만들어진지 얼마 안 된 서비스였다. 서비스 자체 목적이 링크를 클릭하게 만드는 것인 만큼 Stored XSS는 위험한 취약점으로 작용할 수 있었기에 큰 바운티가 지급된 것 같다. Shopify에서 제공하는 서비스기 때문에 쿠키를 탈취했을 때에도 사용 범위가 넓을 것이라 생각된다.
+기억하기론 당시 만들어진지 얼마 안 된 서비스였다. 서비스 자체 목적이 링크를 클릭하게 만드는 것인 만큼 Stored XSS는 위험한 취약점으로 작용할 수 있었기에 큰 바운티가 지급된 것 같다. Shopify에서 제공하는 서비스기 때문에 쿠키를 탈취했을 때에도 사용 범위가 넓을 것이라 생각된다.  
+  
+참고
+<https://hackerone.com/reports/1441988>  
+원본 링크

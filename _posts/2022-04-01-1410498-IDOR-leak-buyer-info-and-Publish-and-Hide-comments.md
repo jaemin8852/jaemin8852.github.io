@@ -6,8 +6,6 @@ last_modified_at: 2022-04-01
 category: Hacking
 ---
 
-<https://hackerone.com/reports/1410498>  
-원본 링크
 
 # IDOR: leak buyer info & Publish/Hide foreign comments
 ### 요약
@@ -43,3 +41,8 @@ comment_id 변경 후 요청(다른 누군가의 댓글 및 구매 정보)
 ### 생각해볼 점
 이에 Bounty로 $1,250이 지급되었다.  
 사용자의 구매 정보와 개인 정보가 있기 때문에 피싱 메일로 이어지면 많은 피해자가 발생할 수 있을 것이다.  
+  
+
+참고  
+<https://hackerone.com/reports/1410498>  
+원본 링크

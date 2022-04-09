@@ -5,9 +5,7 @@ date: 2022-03-28T21:30:00+09:00
 last_modified_at: 2022-03-28
 category: Hacking
 ---
-
-<https://hackerone.com/reports/484434>
-원본 링크  
+ 
   
 [이전 게시물(HTML Injection with Stored XSS possible on imgur profile (1) - $750 리뷰) 보러가기](https://jaemin8852.github.io/hacking/381553-HTML-Injection-with-Stored-XSS-possible-on-imgur-profile1/)  
   
@@ -32,4 +30,8 @@ category: Hacking
 ### 생각해볼 점
 이에 Bounty로 $650이 지급되었다.  
 링크에 수상한 script가 있는 것도 아니고 그냥 공격자의 프로필만 접속해도, 피해자가 로그인을 하고 있지 않아도 스크립트가 실행된다는 점에서 피해가 발생할 확률이 높을 것이다.  
-사용자로부터 받은 text 필드를 평문으로 출력할 수 있도록 코딩해야 할 것이다. 필터링을 확실하게 하거나!😄
+사용자로부터 받은 text 필드를 평문으로 출력할 수 있도록 코딩해야 할 것이다. 필터링을 확실하게 하거나!😄  
+  
+참고  
+<https://hackerone.com/reports/484434>
+원본 링크 

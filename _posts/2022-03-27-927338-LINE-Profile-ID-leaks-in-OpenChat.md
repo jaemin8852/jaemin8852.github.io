@@ -23,3 +23,4 @@ category: Hacking
   
 참고
 <https://hackerone.com/reports/927338>  
+원본 링크

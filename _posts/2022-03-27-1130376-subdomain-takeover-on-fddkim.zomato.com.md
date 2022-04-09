@@ -6,10 +6,6 @@ last_modified_at: 2022-03-27
 category: Hacking
 ---
 
-<https://hackerone.com/reports/1130376>  
-원본 링크  
-https://medium.com/@moSec/how-i-hacked-thousand-of-subdomains-6aa43b92282c  
-해커가 작성한 writeup 원문
 
 # Subdomain Takeover 
 Subdomain Takeover는 간단히 말해서 fddkim.zomato.com 같은 zomato.com의 하위 도메인을 탈취하는 것이다.  
@@ -39,4 +35,10 @@ takeover에 성공한다면 서브 도메인에서 그대로 내 페이지가 �
 이렇게 취약하지 않다고 생각했던 곳이 뚫린다면, 이를 사용하는 **발생할 수 있던** 모든 곳이 취약해진다. 해커는 이런 zero-day 취약점을 다량 제보하여 총 $5,000을 Bounty로 받게 되었다.  
   
 ### 생각해볼 점
-물론 이 사례에서 운도 따랐겠지만(not vulnerable 하다는 것을 못 보고 시도할 수 있었던), 계속해서 취약한 subdomain들을 탐색하고 요청을 조작하고 응답을 살펴보면서 우회 방법을 찾았기에 성공할 수 있던 값진 노력의 결과라고 생각한다.
+물론 이 사례에서 운도 따랐겠지만(not vulnerable 하다는 것을 못 보고 시도할 수 있었던), 계속해서 취약한 subdomain들을 탐색하고 요청을 조작하고 응답을 살펴보면서 우회 방법을 찾았기에 성공할 수 있던 값진 노력의 결과라고 생각한다.  
+  
+참고  
+<https://hackerone.com/reports/1130376>  
+원본 링크  
+https://medium.com/@moSec/how-i-hacked-thousand-of-subdomains-6aa43b92282c  
+해커가 작성한 writeup 원문
