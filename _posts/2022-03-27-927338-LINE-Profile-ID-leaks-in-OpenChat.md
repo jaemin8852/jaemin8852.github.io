@@ -5,9 +5,7 @@ date: 2022-03-27T18:30:00+09:00
 last_modified_at: 2022-03-27
 category: Hacking
 ---
-
-<https://hackerone.com/reports/927338>  
-원본 링크  
+  
 
 # LINE Profile ID leaks in OpenChat 
   
@@ -21,4 +19,7 @@ category: Hacking
 ### 생각해볼 점
 이에 Bounty로 $3,000이 지급되었다.  
 새로운 프로필을 만들고 익명성을 보장받는 오픈챗이었기 때문에 이미지를 통해서 user의 기존 라인 프로필 정보를 가져오는 건 큰 문제가 될 수 있다. 그렇기 때문에 심각성을 High(7~8.9)로 평가하고 큰 바운티를 지급한 것을 볼 수 있다.  
-기존에 사용하던 object storage service를 그대로 가져와서 사용했기 때문에 일어난 일인데, 하나하나 다 체크하기가 쉬운 일은 아닐 것 같다.
+기존에 사용하던 object storage service를 그대로 가져와서 사용했기 때문에 일어난 일인데, 하나하나 다 체크하기가 쉬운 일은 아닐 것 같다.  
+  
+참고
+<https://hackerone.com/reports/927338>  
