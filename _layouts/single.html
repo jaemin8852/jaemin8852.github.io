@@ -30,7 +30,7 @@ layout: default
             <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
           </h1>{% endif %}
           {% include page__date.html %}
-          {% include GoogleAdSenseSquared.html %}
+          {% include GoogleAdsenseSquared.html %}
         </header>
       {% endunless %}
 
@@ -42,7 +42,7 @@ layout: default
               {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
             </nav>
             <nav class="toc-custom">
-              {% include GoogleAdSenseSidebar.html %}
+              {% include GoogleAdsenseSidebar.html %}
             </nav>
           </aside>
         {% endif %}
