@@ -30,12 +30,9 @@ layout: default
             <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
           </h1>{% endif %}
           {% include page__date.html %}
+          {% include GoogleAdSenseSquared.html %}
         </header>
       {% endunless %}
-
-      <section>
-        {% include GoogleAdSenseSquared.html %}
-      </section>
 
       <section class="page__content e-content" itemprop="text">
         {% if page.toc %}
@@ -46,6 +43,7 @@ layout: default
             </nav>
             <nav class="toc-custom">
               {% include GoogleAdSenseSidebar.html %}
+            </nav>
           </aside>
         {% endif %}
         {{ content }}
