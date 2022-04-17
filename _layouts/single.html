@@ -23,10 +23,6 @@ layout: default
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
-    <div>
-        {% include GoogleAdSenseSquared.html %}
-    </div>
-
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
@@ -36,6 +32,10 @@ layout: default
           {% include page__date.html %}
         </header>
       {% endunless %}
+
+      <section>
+        {% include GoogleAdSenseSquared.html %}
+      </section>
 
       <section class="page__content e-content" itemprop="text">
         {% if page.toc %}
