@@ -28,6 +28,6 @@ category: Hacking
 사용자로부터 받은 text 필드를 평문으로 출력할 수 있도록 코딩해야 할 것이다. 다음 게시물에서 알 수 있듯, <>만 치환하는 필터링을 거쳤기에 이를 우회해서 또 XSS를 성공시켰으니 말이다.  
 [다음 게시물 보러가기](https://jaemin8852.github.io/hacking/484434-HTML-Injection-with-Stored-XSS-possible-on-imgur-profile2/)  
   
-참고
+참고  
 <https://hackerone.com/reports/381553>
 원본 링크
